@@ -76,7 +76,9 @@ class GitManager:
                 status = info["status"]
                 try:
                     if status == "added" or status == "modified":
-                        temp = Path(wget.download(url))
+                        temp = Path( wget.download(url) )
+                        if temp.suffix == ".jar" and temp.stat().st_size <= "1000": #checks for a redirect	
+                            temp = Path( wget.download(temp.read_text()) )	
                         temp.replace(path)
                     elif status == "renamed":
                         previous = Path( info["previous_filename"] )
