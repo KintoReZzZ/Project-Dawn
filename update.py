@@ -5,6 +5,7 @@ sys.path.insert(0,os.getcwd())
 import json
 import wget
 import time
+import datetime
 import traceback
 
 from tkinter import *
@@ -99,6 +100,7 @@ class GitManager:
                 
         self.Config.Decode()
         self.Config["commit"] = self.New
+        self.Config["last"] = str(datetime.datetime.now())
         Notify("Verification Complete" ) 
         return
     
