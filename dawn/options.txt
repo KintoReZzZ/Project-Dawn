@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:1
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -51,7 +51,7 @@ realmsNotifications:true
 enableWeakAttacks:false
 autoJump:false
 narrator:0
-tutorialStep:movement
+tutorialStep:none
 key_key.attack:-100
 key_key.use:-99
 key_key.forward:17
@@ -91,13 +91,20 @@ key_Boost Key:29
 key_Mode Switch Key:50
 key_Side Inventory Key:0
 key_Hub Expand Key:45
-key_key.davincis.up:45
-key_key.davincis.down:44
-key_key.davincis.brake:0
-key_key.davincis.align:13
-key_key.davincis.decompile:43
-key_key.davincis.shipinv:37
-key_keybind.railcraft.cart.bed:208
+key_key.aim:56
+key_key.reload:19
+key_key.unload:22
+key_MoCreatures Dive:44
+key_MoCreatures GUI:100
+key_key.fart.desc:34
+key_Gravi Fly Key:200
+key_key.ironbackpacks.equip:35
+key_key.ironbackpacks.open:23
+key_openblocks.keybind.vario_switch:47
+key_openblocks.keybind.vario_vol_up:0
+key_openblocks.keybind.vario_vol_down:0
+key_key.vehicle.horn:35
+key_key.vehicle.cycle_seats:0
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -109,7 +116,14 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
-key_invtweaks.key.sort:55
+key_waila.keybind.wailaconfig:82
+key_waila.keybind.wailadisplay:79
+key_waila.keybind.liquid:80
+key_waila.keybind.recipe:81
+key_waila.keybind.usage:75
+key_invtweaks.key.sort:19
+key_Mo' Bends Menu:34
+key_Refresh Animations:68
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0
@@ -124,11 +138,6 @@ key_gui.xaero_zoom_out:24
 key_gui.xaero_new_waypoint:48
 key_gui.xaero_display_all_sets:0
 key_gui.xaero_minimap_settings:21
-key_keybind.railcraft.loco.reverse:53:ALT
-key_keybind.railcraft.loco.faster:52:ALT
-key_keybind.railcraft.loco.slower:51:ALT
-key_keybind.railcraft.loco.mode:50:ALT
-key_keybind.railcraft.loco.whistle:49:ALT
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
