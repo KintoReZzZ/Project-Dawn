@@ -109,7 +109,7 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
-key_invtweaks.key.sort:19
+key_invtweaks.key.sort:55
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0
