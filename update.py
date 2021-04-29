@@ -124,11 +124,13 @@ class Registry():
         except FileNotFoundError as e:
             return None
         
-def Minecraft():
+def Minecraft(change=False):     
     reg = Registry("Software\Mojang\InstalledProducts\Minecraft Launcher")
-    if reg.Valid:
+    try:
         return ( reg["InstallLocation"] +reg["InstallExe"] )
-    return reg.Valid
-        
+    except Exception as e:
+         Notify("Please Update The Minecraft Launcher!")
+         sys.exit()
+
 if __name__ == '__main__':
     import menu
