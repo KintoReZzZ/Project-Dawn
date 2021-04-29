@@ -124,7 +124,7 @@ class Registry():
         except FileNotFoundError as e:
             return None
         
-def Minecraft(change=False):     
+def Minecraft():     
     reg = Registry("Software\Mojang\InstalledProducts\Minecraft Launcher")
     try:
         return ( reg["InstallLocation"] +reg["InstallExe"] )
