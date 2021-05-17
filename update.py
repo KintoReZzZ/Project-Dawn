@@ -40,7 +40,7 @@ class JsonConfig:
         self.Path.write_text(self.Encode())
 
 class GitManager:
-    def __init__(self, repo='TheMerkyShadow/Project-Dawn'):
+    def __init__(self, repo='KintoReZzZ/Project-Dawn'):
         self.Repo = repo
         self.Config = JsonConfig()        
     def APIGateway(self, api):
@@ -129,7 +129,7 @@ def Minecraft():
     try:
         return ( reg["InstallLocation"] +reg["InstallExe"] )
     except Exception as e:
-         Notify("Please Update The Minecraft Launcher!")
+         Notify("Обнови лаунчер!")
          sys.exit()
 
 if __name__ == '__main__':
